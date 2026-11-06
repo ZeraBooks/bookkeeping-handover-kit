@@ -1,6 +1,6 @@
 # Bookkeeping handover kit
 
-Handing your books to an outsourced bookkeeper takes four things: the documents they need (a trial balance, the last statement for every bank, card and loan account, the bank reconciliation, A/R and A/P aging), access to your systems by invite rather than shared passwords, a month-zero opening balance for every account, and proof that those opening balances tie to the last statements. If [ZeraBooks](https://www.zerabooks.com/outsourced-bookkeeping) is doing your books, our team works through exactly this list on the first call, then does the books on our own AI bookkeeping ledger, with a read-only login for you and an upload portal for documents.
+Handing your books to an outsourced bookkeeper takes four things: the documents they need (a trial balance, the last statement for every bank, card and loan account, the bank reconciliation, A/R and A/P aging), access to your systems by invite rather than shared passwords, a month-zero opening balance for every account, and proof that those opening balances tie to the last statements. With [ZeraBooks outsourced bookkeeping](https://www.zerabooks.com/outsourced-bookkeeping), our team does the books on our own AI bookkeeping ledger after a free first call, with a read-only login for you and an upload portal for documents.
 
 This repo is that list as files anyone can use, with any bookkeeper: a 14-item document request, an 8-system access checklist, an opening balance template with a support document for every line, six fictional handover packets that tie, twelve that don't, and a Python checker.
 
@@ -87,7 +87,7 @@ Those three checks were written in June. When they clear in July, they'd hit cas
 
 ## How ZeraBooks takes over books
 
-With [ZeraBooks outsourced bookkeeping](https://www.zerabooks.com/outsourced-bookkeeping), our team records your transactions, reconciles your accounts and prepares your reports on our own [AI bookkeeping](https://www.zerabooks.com/ai-bookkeeping) ledger. You send statements, bills and invoices through an upload portal and get a read-only login to see the work as it's done. Plans start at $150 a month (USD) for businesses anywhere, priced after a free call; catch-up and cleanup are quoted on their own. Every engagement starts with this handover.
+With [ZeraBooks outsourced bookkeeping](https://www.zerabooks.com/outsourced-bookkeeping), our team records your transactions, reconciles your accounts and prepares your reports on our own [AI bookkeeping](https://www.zerabooks.com/ai-bookkeeping) ledger. You send statements, bills and invoices through an upload portal and get a read-only login to see the work as it's done. Plans start at $150 a month (USD) for businesses anywhere, priced after a free call; catch-up and cleanup are quoted on their own.
 
 ## Tests
 
