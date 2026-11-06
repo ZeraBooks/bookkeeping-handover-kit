@@ -1,0 +1,573 @@
+{
+  "name": "bookkeeping-handover-kit",
+  "version": "1.0.0",
+  "released": "2026-11-05",
+  "publisher": "Zera Books Inc. (ZeraBooks)",
+  "homepage": "https://www.zerabooks.com/outsourced-bookkeeping",
+  "repository": "https://github.com/ZeraBooks/bookkeeping-handover-kit",
+  "license_code": "MIT",
+  "license_data": "CC-BY-4.0",
+  "fictional_data": true,
+  "file_counts": {
+    "samples": 91,
+    "schema": 2,
+    "templates": 3
+  },
+  "files": [
+    {
+      "path": "samples/handovers/brightwater-landscaping/ap-aging.csv",
+      "bytes": 361,
+      "sha256": "4feecced32e271a9a0c49c77f398a974059565c8708e73e11e89ce389f03f959",
+      "rows": 5
+    },
+    {
+      "path": "samples/handovers/brightwater-landscaping/ar-aging.csv",
+      "bytes": 385,
+      "sha256": "f3b273ff53e1a6678cfd8570cb4c1df1367a09722708a633c2842d999bbbefdb",
+      "rows": 5
+    },
+    {
+      "path": "samples/handovers/brightwater-landscaping/handover.json",
+      "bytes": 1687,
+      "sha256": "8f47b4663b2bff61784545703f4184153a607d85e72fd8ae01925b1b18d2a4d2"
+    },
+    {
+      "path": "samples/handovers/brightwater-landscaping/opening-balances.csv",
+      "bytes": 1536,
+      "sha256": "532a2d8e3b64d6730772aae948def41f3e6314bf57586c8f8b1cd1baf10f55e6",
+      "rows": 13
+    },
+    {
+      "path": "samples/handovers/brightwater-landscaping/outstanding-items.csv",
+      "bytes": 446,
+      "sha256": "c2d52d5bb06f45092ff71cdb25ab6f3618fda7bcb99725b3c5afc5b029f0255e",
+      "rows": 7
+    },
+    {
+      "path": "samples/handovers/ironwood-property/ap-aging.csv",
+      "bytes": 327,
+      "sha256": "c4b30bfe4da59c0cd1aba98ab00c77bd1e8bc9e22bdfd7a1ae5faa2442475db3",
+      "rows": 4
+    },
+    {
+      "path": "samples/handovers/ironwood-property/ar-aging.csv",
+      "bytes": 383,
+      "sha256": "7e58fa35a5954a8d6ad503f3ad7688e08c471e290d866273a1f492165fdc1cc3",
+      "rows": 5
+    },
+    {
+      "path": "samples/handovers/ironwood-property/handover.json",
+      "bytes": 1686,
+      "sha256": "a770b98b2d7327e4e4a79d61a8071932af79cf33c0399a98fb8b5da30904a78f"
+    },
+    {
+      "path": "samples/handovers/ironwood-property/opening-balances.csv",
+      "bytes": 1641,
+      "sha256": "4eec607894830c4ae7c983affc5342fd7e6e2c929625c014ebe8606db6b6601f",
+      "rows": 14
+    },
+    {
+      "path": "samples/handovers/ironwood-property/outstanding-items.csv",
+      "bytes": 276,
+      "sha256": "1dbf085f7973611ab9c5aeb081eadca583dc43b2d74850bfafa57fb09ea92000",
+      "rows": 4
+    },
+    {
+      "path": "samples/handovers/juniper-lane-bakery/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/handovers/juniper-lane-bakery/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/handovers/juniper-lane-bakery/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/handovers/juniper-lane-bakery/opening-balances.csv",
+      "bytes": 1640,
+      "sha256": "89cf56c3110539377a0741068a8cda13b0839d74ece6abef137ea9e600997359",
+      "rows": 14
+    },
+    {
+      "path": "samples/handovers/juniper-lane-bakery/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/handovers/okafor-family-dental/ap-aging.csv",
+      "bytes": 169,
+      "sha256": "32b62f31b841753891c30ef3f81e5016604471a66b257a099d5b6048cfaedb8e",
+      "rows": 2
+    },
+    {
+      "path": "samples/handovers/okafor-family-dental/ar-aging.csv",
+      "bytes": 256,
+      "sha256": "0403ae63579b51025a9b794e211a10c5fa8cfa1da2f4773951c33a1599d13e68",
+      "rows": 3
+    },
+    {
+      "path": "samples/handovers/okafor-family-dental/handover.json",
+      "bytes": 1683,
+      "sha256": "7ee44a02895d74e1f058d263301b599a7d49e829e9a2cc50d817f2be4967b64e"
+    },
+    {
+      "path": "samples/handovers/okafor-family-dental/opening-balances.csv",
+      "bytes": 1539,
+      "sha256": "b249e34b5c30465c23fcb758cec1540ec1cb124e73e55c428eb92a72a4ed73da",
+      "rows": 13
+    },
+    {
+      "path": "samples/handovers/okafor-family-dental/outstanding-items.csv",
+      "bytes": 319,
+      "sha256": "9eb30df3493013d7171d16291388bfbea0827803a82fbc838ca8b7fee8ab709f",
+      "rows": 5
+    },
+    {
+      "path": "samples/handovers/redline-freight/ap-aging.csv",
+      "bytes": 310,
+      "sha256": "7ffee556029c7cf0e8237e5553c1909a55c3b1f55a27f732a870cf97bd60364d",
+      "rows": 4
+    },
+    {
+      "path": "samples/handovers/redline-freight/ar-aging.csv",
+      "bytes": 454,
+      "sha256": "82c07bbbd99be309a5ec6e5a32139685bde5ccb8f696be9c1f5d557170359170",
+      "rows": 6
+    },
+    {
+      "path": "samples/handovers/redline-freight/handover.json",
+      "bytes": 1676,
+      "sha256": "2375816187dcee82cc4a7c4ba108b0943ce63094d036bd846946d18b1199615d"
+    },
+    {
+      "path": "samples/handovers/redline-freight/opening-balances.csv",
+      "bytes": 1642,
+      "sha256": "70a89cb60a97a6da757d95e5fb36e6d559319d7c6f5e540f7f504db4af2737fd",
+      "rows": 14
+    },
+    {
+      "path": "samples/handovers/redline-freight/outstanding-items.csv",
+      "bytes": 320,
+      "sha256": "dc942c03119754ede051b73519af78466fe61dfdf7d41a5d2730f3b344a1b2b0",
+      "rows": 5
+    },
+    {
+      "path": "samples/handovers/vega-cpa/ap-aging.csv",
+      "bytes": 377,
+      "sha256": "615f5080ccff439e8e9a8e7d6441f568d1147e3ae4d5b1a4a86ac4a31e33b936",
+      "rows": 5
+    },
+    {
+      "path": "samples/handovers/vega-cpa/ar-aging.csv",
+      "bytes": 448,
+      "sha256": "42e72c7032f758e4f1f8d663da2ac44eb948dbcf1a599e79426e27bb562c7dc6",
+      "rows": 6
+    },
+    {
+      "path": "samples/handovers/vega-cpa/handover.json",
+      "bytes": 1676,
+      "sha256": "3389493450e6e2e3587b97d6e4a745b4bbe2d4ba795194a13cb8b8c40fe3458a"
+    },
+    {
+      "path": "samples/handovers/vega-cpa/opening-balances.csv",
+      "bytes": 1422,
+      "sha256": "8df437281a6790c415bfd32cc4e16b4066596f8e7f1f63bc967e1e7ca5cc329b",
+      "rows": 12
+    },
+    {
+      "path": "samples/handovers/vega-cpa/outstanding-items.csv",
+      "bytes": 212,
+      "sha256": "2f21620d6523e86da00cc046dc42e5ddd1e06809e4a16f211a1c79cf2968cee5",
+      "rows": 3
+    },
+    {
+      "path": "samples/index.csv",
+      "bytes": 459,
+      "sha256": "4c468fe240490f27fc6fc69e998a15b5bfc803b84d4b9423137c7e6a2d923428",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/aging-short/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/aging-short/ar-aging.csv",
+      "bytes": 385,
+      "sha256": "11ff4157b2e877287be0bd5d1ec931e8ae55d0852d8bddd8c07f0f3526529ca6",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/aging-short/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/aging-short/opening-balances.csv",
+      "bytes": 1640,
+      "sha256": "89cf56c3110539377a0741068a8cda13b0839d74ece6abef137ea9e600997359",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/aging-short/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/both-sides/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/both-sides/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/both-sides/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/both-sides/opening-balances.csv",
+      "bytes": 1645,
+      "sha256": "e9622cf50995d80b24a9593a2eac93edc8efa7ff479772f3a6d942bb3afe26f4",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/both-sides/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/card-charges-missing/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/card-charges-missing/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/card-charges-missing/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/card-charges-missing/opening-balances.csv",
+      "bytes": 1640,
+      "sha256": "89cf56c3110539377a0741068a8cda13b0839d74ece6abef137ea9e600997359",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/card-charges-missing/outstanding-items.csv",
+      "bytes": 233,
+      "sha256": "8c10fa99d91954d5b36a6e6b45cfbe855f1451d71eb62014c63be1bb4b17d19d",
+      "rows": 4
+    },
+    {
+      "path": "samples/invalid/cash-equals-statement/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/cash-equals-statement/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/cash-equals-statement/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/cash-equals-statement/opening-balances.csv",
+      "bytes": 1641,
+      "sha256": "7f5d66178dccd1f5e65feb0bf58fd7af9ba3828e37db8cbcef21eac960a423be",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/cash-equals-statement/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/does-not-balance/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/does-not-balance/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/does-not-balance/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/does-not-balance/opening-balances.csv",
+      "bytes": 1640,
+      "sha256": "9d5f337ce718bbd7d0af8d17e3d744ede2e305eb9a43e0ab3a4a60c16828bec9",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/does-not-balance/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/expected.json",
+      "bytes": 2006,
+      "sha256": "1751c347a89106b811d5e509dadf1aad0d3d599fea676298938f6c3152ad02b3"
+    },
+    {
+      "path": "samples/invalid/items-total-wrong/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/items-total-wrong/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/items-total-wrong/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/items-total-wrong/opening-balances.csv",
+      "bytes": 1636,
+      "sha256": "57cb0caac997368b6f8046c28b742983e7cb0df9876ed76be5626edd5d45f93d",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/items-total-wrong/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/missing-documents/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/missing-documents/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/missing-documents/handover.json",
+      "bytes": 1659,
+      "sha256": "9b13f3d2b2429a1e070f01b6bdbd2c2ef3ae31cd8511b84d75af1222b495bbf3"
+    },
+    {
+      "path": "samples/invalid/missing-documents/opening-balances.csv",
+      "bytes": 1640,
+      "sha256": "89cf56c3110539377a0741068a8cda13b0839d74ece6abef137ea9e600997359",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/missing-documents/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/no-opening-balances/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/no-opening-balances/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/no-opening-balances/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/no-opening-balances/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/no-statement/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/no-statement/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/no-statement/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/no-statement/opening-balances.csv",
+      "bytes": 1606,
+      "sha256": "e2b8a5d50e7565ec85d7deeb6ec5d8441cec8b3f8eec5e9c447796057c5916b9",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/no-statement/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/old-statement/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/old-statement/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/old-statement/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/old-statement/opening-balances.csv",
+      "bytes": 1640,
+      "sha256": "0ef01cc65200d714339fdad5b67324aa57d78c3df888509288157d7c12193833",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/old-statement/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/shared-password/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/shared-password/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/shared-password/handover.json",
+      "bytes": 1691,
+      "sha256": "11489b17761027108dfcb410b76edcdcdc18ace5d4b2a8d647e39db169f01cdb"
+    },
+    {
+      "path": "samples/invalid/shared-password/opening-balances.csv",
+      "bytes": 1640,
+      "sha256": "89cf56c3110539377a0741068a8cda13b0839d74ece6abef137ea9e600997359",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/shared-password/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "55c111041ea0c980a8273ccd40a85e9cbd543a4fafa9751327b53ab575e72828",
+      "rows": 8
+    },
+    {
+      "path": "samples/invalid/stale-check/ap-aging.csv",
+      "bytes": 369,
+      "sha256": "e414b0f375ea1fe4bab6e28174dbb6a440fbf412f4ea0262dc3262e86fe67f0b",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/stale-check/ar-aging.csv",
+      "bytes": 449,
+      "sha256": "1536c55c3c2a9eb4f5698a31d4658dfee3940f17796720fa1618c3e2a31ac47e",
+      "rows": 6
+    },
+    {
+      "path": "samples/invalid/stale-check/handover.json",
+      "bytes": 1681,
+      "sha256": "496f87ee4cf470494283fe3fcee1e978c84c095e0a2fbb73b0bf073bc23d94c5"
+    },
+    {
+      "path": "samples/invalid/stale-check/opening-balances.csv",
+      "bytes": 1640,
+      "sha256": "89cf56c3110539377a0741068a8cda13b0839d74ece6abef137ea9e600997359",
+      "rows": 14
+    },
+    {
+      "path": "samples/invalid/stale-check/outstanding-items.csv",
+      "bytes": 489,
+      "sha256": "098661a0aef8f7b11093d82fb130506bf92f43f4404533ecda287df724b53a9e",
+      "rows": 8
+    },
+    {
+      "path": "schema/handover.schema.json",
+      "bytes": 1214,
+      "sha256": "ad90d4ad612f0ac27c674bb8aaa2b740e3508a78f2ec5777e21438758c5ea81f"
+    },
+    {
+      "path": "schema/opening-balance-row.schema.json",
+      "bytes": 1688,
+      "sha256": "f7d892764948fe90af35c131b474b4156a0313787a13e42e9fd401310a566dad"
+    },
+    {
+      "path": "templates/access-checklist.csv",
+      "bytes": 1045,
+      "sha256": "ac8c52acdf29465c61a077be0d3fbedf452152953befc0efe467c3313e8ff82a",
+      "rows": 8
+    },
+    {
+      "path": "templates/document-request.csv",
+      "bytes": 2264,
+      "sha256": "1fdafe9c5568b91c3af71ee7b8a2c257834f74619d55bd93b82408cb95854c2e",
+      "rows": 14
+    },
+    {
+      "path": "templates/opening-balances.csv",
+      "bytes": 476,
+      "sha256": "30074d33d04024c5adaaad3994ed5b784e9468c7b10557623fadc16f98b8aee5",
+      "rows": 6
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/bookkeeping-handover-kit/schema/handover.schema.json",
+  "title": "Handover packet header (handover.json)",
+  "type": "object",
+  "required": ["business", "cutover_date", "first_month", "documents_received", "access"],
+  "properties": {
+    "business": {"type": "string"},
+    "cutover_date": {"type": "string", "format": "date", "description": "Last day of the old books. The new bookkeeper starts the day after."},
+    "first_month": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}$"},
+    "previous_bookkeeper": {"type": "string"},
+    "documents_received": {"type": "array", "items": {"type": "string", "pattern": "^D[0-9]{2}$"}, "description": "IDs from templates/document-request.csv."},
+    "documents_not_applicable": {"type": "array", "items": {"type": "string"}},
+    "access": {"type": "array", "items": {"type": "object", "required": ["id", "granted", "old_access_revoked"],
+      "properties": {"id": {"type": "string"}, "granted": {"type": "boolean"}, "method": {"enum": ["invite", "shared_password", "none"]}, "old_access_revoked": {"type": "boolean"}}}},
+    "fictional": {"const": true}
+  }
+}

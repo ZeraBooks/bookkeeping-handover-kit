@@ -1,0 +1,14 @@
+account_number,account_name,account_type,opening_debit,opening_credit,support_type,support_document,support_balance,support_date,reconciling_items_total,notes
+1000,Operating checking ...4471,asset,49104.79,,bank_statement,checking-2026-06.pdf,52036.19,2026-06-30,-2931.40,
+1010,Savings ...0932,asset,23042.92,,bank_statement,savings-2026-06.pdf,23042.92,2026-06-30,0.00,
+1100,Accounts receivable,asset,19992.66,,ar_aging,ar-aging-2026-06-30.pdf,19992.66,,,
+1500,Equipment,asset,92812.87,,fixed_asset_schedule,fixed-assets-2025.xlsx,,,,
+1510,Accumulated depreciation,asset,,15387.40,fixed_asset_schedule,fixed-assets-2025.xlsx,,,,Through June 30 per schedule
+2000,Accounts payable,liability,,14238.71,ap_aging,ap-aging-2026-06-30.pdf,14238.71,,,
+2100,Business card ...9014,liability,,2883.58,card_statement,card-2026-06-24.pdf,2007.74,2026-06-24,875.84,
+2300,Sales tax payable,liability,,2243.98,sales_tax_report,sales-tax-liability-2026-06.pdf,2243.98,,,
+2700,Equipment loan,liability,,19425.95,loan_statement,loan-2026-06.pdf,19425.95,2026-06-28,0.00,
+3000,Owner's capital,equity,,21394.74,trial_balance,trial-balance-2026-06-30.pdf,,,,
+3900,Retained earnings,equity,,53516.82,trial_balance,trial-balance-2026-06-30.pdf,,,,Prior years' retained earnings per the last tax return
+4000,Revenue (year to date),revenue,,222176.14,trial_balance,trial-balance-2026-06-30.pdf,,,,
+6000,Expenses (year to date),expense,166314.08,,trial_balance,trial-balance-2026-06-30.pdf,,,,Total of expense accounts; detail in the trial balance

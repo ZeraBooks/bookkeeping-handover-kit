@@ -1,0 +1,7 @@
+account_number,account_name,account_type,opening_debit,opening_credit,support_type,support_document,support_balance,support_date,reconciling_items_total,notes
+1000,Operating checking ...1234,asset,,,bank_statement,,,,,
+1100,Accounts receivable,asset,,,ar_aging,,,,,
+2000,Accounts payable,liability,,,ap_aging,,,,,
+2100,Business card ...5678,liability,,,card_statement,,,,,
+2700,Equipment loan,liability,,,loan_statement,,,,,
+3900,Retained earnings,equity,,,trial_balance,,,,,

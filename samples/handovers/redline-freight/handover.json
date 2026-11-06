@@ -1,0 +1,82 @@
+{
+  "business": "Redline Freight Co",
+  "cutover_date": "2026-06-30",
+  "first_month": "2026-07",
+  "previous_bookkeeper": "Fictional in-house bookkeeper",
+  "documents_received": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14"
+  ],
+  "documents_not_applicable": [],
+  "access": [
+    {
+      "id": "A01",
+      "system": "Business bank accounts",
+      "granted": true,
+      "method": "invite",
+      "old_access_revoked": true
+    },
+    {
+      "id": "A02",
+      "system": "Business credit cards",
+      "granted": true,
+      "method": "invite",
+      "old_access_revoked": true
+    },
+    {
+      "id": "A03",
+      "system": "Payroll provider",
+      "granted": true,
+      "method": "invite",
+      "old_access_revoked": true
+    },
+    {
+      "id": "A04",
+      "system": "Payment processors (Square/Stripe/Shopify/PayPal)",
+      "granted": true,
+      "method": "invite",
+      "old_access_revoked": true
+    },
+    {
+      "id": "A05",
+      "system": "Accounting software",
+      "granted": true,
+      "method": "invite",
+      "old_access_revoked": true
+    },
+    {
+      "id": "A06",
+      "system": "Bill pay and expense tools",
+      "granted": true,
+      "method": "invite",
+      "old_access_revoked": true
+    },
+    {
+      "id": "A07",
+      "system": "Sales tax portal",
+      "granted": true,
+      "method": "invite",
+      "old_access_revoked": true
+    },
+    {
+      "id": "A08",
+      "system": "Shared document folder",
+      "granted": true,
+      "method": "invite",
+      "old_access_revoked": true
+    }
+  ],
+  "fictional": true
+}

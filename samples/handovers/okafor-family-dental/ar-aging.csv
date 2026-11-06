@@ -1,0 +1,4 @@
+number,party,date,due_date,original_amount,open_balance
+INV-2100,Lakeview Clinic,2026-05-28,2026-06-27,2309.36,2309.36
+INV-2101,Lakeview Clinic,2026-04-29,2026-05-29,4185.20,4185.20
+INV-2102,Hartwell Manufacturing,2026-06-22,2026-07-22,9512.28,4756.14

@@ -1,0 +1,15 @@
+id,document,from,as_of,why_the_new_bookkeeper_needs_it,required
+D01,Trial balance,Previous bookkeeper or accounting software,Cutover date,Every account's balance on the last day the old books are trusted. The opening entry is built from it.,yes
+D02,Last reconciled bank statement for every checking and savings account,Bank,Statement ending on or just before the cutover date,The printed balance the opening cash figure has to tie to.,yes
+D03,Bank reconciliation report for that statement,Previous bookkeeper,Cutover date,Lists the checks and deposits that hadn't cleared. Without it the first month won't reconcile.,yes
+D04,Last credit card statement for every business card,Card issuer,Statement ending on or just before the cutover date,The card balance owed.,yes
+D05,Loan and line of credit statements,Lender,Cutover date,Principal owed. Interest and principal splits need the lender's figure.,if any
+D06,Accounts receivable aging detail,Accounting software,Cutover date,Each unpaid customer invoice. Customer payments in month one get matched to these.,if any
+D07,Accounts payable aging detail,Accounting software,Cutover date,Each unpaid bill.,if any
+D08,Payroll register and the last quarterly payroll tax returns,Payroll provider,Last quarter before cutover,Payroll liabilities on the trial balance should equal what's still owed to the tax agencies.,if payroll
+D09,Sales tax returns and the liability report,Accounting software or state portal,Last filing period,Sales tax payable should equal the next return's amount.,if collected
+D10,Fixed asset and depreciation schedule,Previous accountant,Last year end,Equipment cost and accumulated depreciation by asset.,if any
+D11,Last filed business tax return,Tax preparer,Last year end,Retained earnings and depreciation should agree with what was filed.,yes
+D12,List of vendors paid as contractors (1099 vendors),Previous bookkeeper,Year to date,Year-to-date contractor payments so January 1099s are complete.,U.S. only
+D13,Chart of accounts and any category rules,Accounting software,Cutover date,So month one is categorized the way the old books were.,yes
+D14,Notes on anything unusual,Owner and previous bookkeeper,Cutover date,"Suspense balances, owner loans, related-party transfers, known errors.",yes

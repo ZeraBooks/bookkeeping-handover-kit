@@ -1,0 +1,4 @@
+account_number,date,ref,description,amount
+1000,2026-06-22,1134,Check 1134,-209.00
+1000,2026-06-30,,Deposit made after the bank's cutoff,1225.06
+2100,2026-06-25,,Card charge after the statement closed,292.11

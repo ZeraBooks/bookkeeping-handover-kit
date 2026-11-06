@@ -1,0 +1,9 @@
+id,system,access_to_grant,level,how,who_grants,revoke_old_access
+A01,Business bank accounts,Statements and transaction downloads,View only,Bank's own user or accountant access feature,Owner,Yes: remove the old bookkeeper's bank login
+A02,Business credit cards,Statements,View only,Issuer's employee or accountant access,Owner,Yes
+A03,Payroll provider,Reports and tax filings,View or accountant role,Provider's accountant invite,Owner,Yes
+A04,Payment processors (Square/Stripe/Shopify/PayPal),Payout and fee reports,View or reporting role,Processor's team invite,Owner,Yes
+A05,Accounting software,Books,Accountant or admin user,Product's user invite,Owner,Yes: remove or downgrade the old bookkeeper
+A06,Bill pay and expense tools,Bills and receipts,View or approver,Team invite,Owner,Yes
+A07,Sales tax portal,Filings and notices,Third-party or preparer access where the state allows it,State portal's delegate feature,Owner,Yes
+A08,Shared document folder,Upload folder for statements and receipts,Edit on that folder only,Folder share,Owner,Yes

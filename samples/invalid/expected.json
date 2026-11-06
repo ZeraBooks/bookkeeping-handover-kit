@@ -1,0 +1,62 @@
+[
+  {
+    "folder": "samples/invalid/no-opening-balances",
+    "must_fail": "HO-001",
+    "what_is_wrong": "opening-balances.csv missing"
+  },
+  {
+    "folder": "samples/invalid/does-not-balance",
+    "must_fail": "HO-002",
+    "what_is_wrong": "savings typed $100 high with nothing to offset it"
+  },
+  {
+    "folder": "samples/invalid/both-sides",
+    "must_fail": "HO-003",
+    "what_is_wrong": "a row with a debit and a credit"
+  },
+  {
+    "folder": "samples/invalid/cash-equals-statement",
+    "must_fail": "HO-004",
+    "what_is_wrong": "opening cash taken straight from the statement, ignoring outstanding checks and the late deposit"
+  },
+  {
+    "folder": "samples/invalid/card-charges-missing",
+    "must_fail": "HO-005",
+    "what_is_wrong": "card charges after the statement date left out of the items list"
+  },
+  {
+    "folder": "samples/invalid/old-statement",
+    "must_fail": "HO-006",
+    "what_is_wrong": "the checking statement is from April, not the last one before cutover"
+  },
+  {
+    "folder": "samples/invalid/aging-short",
+    "must_fail": "HO-007",
+    "what_is_wrong": "the A/R aging is missing an invoice that's in the opening balance"
+  },
+  {
+    "folder": "samples/invalid/missing-documents",
+    "must_fail": "HO-008",
+    "what_is_wrong": "no bank reconciliation report and no trial balance received"
+  },
+  {
+    "folder": "samples/invalid/shared-password",
+    "must_fail": "HO-009",
+    "what_is_wrong": "bank access by a shared password and the old bookkeeper still in the software (warnings)"
+  },
+  {
+    "folder": "samples/invalid/stale-check",
+    "must_fail": "HO-010",
+    "what_is_wrong": "a check from February still listed as outstanding (warning)"
+  },
+  {
+    "folder": "samples/invalid/items-total-wrong",
+    "must_fail": "HO-011",
+    "what_is_wrong": "reconciling_items_total doesn't match the items file"
+  },
+  {
+    "folder": "samples/invalid/no-statement",
+    "must_fail": "HO-012",
+    "what_is_wrong": "the loan has no statement attached"
+  }
+]

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Bookkeeping Handover Kit"
+type: dataset
+authors:
+  - name: "Zera Books Inc. (ZeraBooks)"
+    website: "https://www.zerabooks.com"
+version: 1.0.0
+date-released: 2026-11-05
+url: "https://www.zerabooks.com/outsourced-bookkeeping"
+repository-code: "https://github.com/ZeraBooks/bookkeeping-handover-kit"
+license: MIT
+abstract: "What to hand an outsourced bookkeeper: document request list, access checklist, month-zero opening balance template and a checker that opening balances tie to the last statements."
+keywords:
+  - outsourced-bookkeeping
+  - bookkeeping-handover
+  - opening-balances
+  - checklist
+  - validator
